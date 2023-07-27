@@ -13,8 +13,7 @@ server=Flask(__name__)
 def start_markup():
     markup = ReplyKeyboardMarkup(resize_keyboard=True)
     markup.row_width = 2
-    # -*- coding: utf-8 -*-
-a=KeyboardButton('🔎 IP Lookup')
+    a=KeyboardButton('🔎 IP Lookup')
     b=KeyboardButton('🔎 Search Subdomains')
     markup.row(a)
     markup.row(b)
